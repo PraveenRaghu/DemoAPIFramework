@@ -28,6 +28,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Execute Tests
-      run: mvn clean -Dsuite=suite-X
+      run: mvn clean test -Dsuite=suite -X
 
    
